@@ -1,4 +1,5 @@
-
+/ip firewall address-list remove [/ip firewall address-list find list=novpn]
+/ip firewall address-list
 add address=1.0.1.0/24 disabled=no list=novpn
 add address=1.0.2.0/23 disabled=no list=novpn
 add address=1.0.8.0/21 disabled=no list=novpn
